@@ -1,0 +1,46 @@
+* {
+  margin: 0 auto;
+}
+body {
+  background: #f8f9fa;
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 18px;
+}
+
+#loginDiv {
+  width: 500px;
+  text-align: left;
+  /* background: #60c; */
+  background: #2cb1ea;
+  line-height: 30px;
+  color: #fff;
+  margin: 150px auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+#loginDiv h1 {
+  text-align: center;
+  color: #f30;
+  /* color: #2cb1ea; */
+  background: #fff url(../images/icon-student.png) no-repeat 10px;
+  padding: 15px 0px 15px 30px;
+  border: 1px solid #630;
+  border-radius: 25px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 3px;
+  border: none;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+  background: #ccc;
+}
+.errorDiv {
+  background: #ffc url(../images/information.png) left no-repeat;
+  color: #f00;
+  padding-left: 20px;
+}
